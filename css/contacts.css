@@ -1,0 +1,127 @@
+
+.address-info {
+    display: flex;
+}
+
+#map {
+    width: 682px;
+    height: 488px;
+}
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: grayscale(100%);
+}
+
+.subtitle__contacts {
+    display: inline-block;
+    left: 60px;
+    position: relative;
+    color: rgb(177, 177, 177);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.subtitle__contacts:before {
+    content: " ";
+    background: rgb(177, 177, 177);
+    top: 50%;
+    width: 45px;
+    height: 1px;
+    position: absolute;
+    left: -40%;
+}
+
+.contacts-info {
+    padding: 80px 72px 0;
+    background-image: url("./../images/our-newsBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #232228;
+    width: 70%;
+}
+
+.title__text_contacts {
+    color: var(--titleColorLignt);
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.input-tel__address {
+    margin-right: 8px;
+    background-color: #fff;
+    padding-left: 25px;
+    width: 298px;
+    height: 52px;
+}
+
+.contacts__block {
+    width: 100%;
+    max-width: 593px;
+}
+
+.contacts {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.contacts__address {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contacts__text_address {
+    margin-right: 41px;
+}
+
+.contacts__text {
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.81px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.btn__text_contacts {
+    margin-right: 8px;
+    background-color: #fff;
+    padding-left: 25px;
+    width: 298px;
+    height: 52px;
+}
+
+/*.contacts__text_tel {*/
+/*    margin-right: 14px;*/
+/*}*/
+
+.contacts__connect {
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.81px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contacts__connect_tel {
+    margin-right: 82px;
+}
+
+.contacts__text_email {
+    margin-right: 33px;
+}
+
+.contacts__connect {
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.81px;
+    text-align: left;
+    color: #E3C37A;
+}
+

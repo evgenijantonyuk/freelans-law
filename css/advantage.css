@@ -1,0 +1,78 @@
+
+
+.advantages__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.subtitle__advantage {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.background-img {
+    background-image: url("./../images/advantages-fon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 100%;
+}
+
+.title__text_advantages {
+    font-size: 40px;
+    text-align: center;
+    color: var(--titleColorDarck);
+}
+
+.text__block_advantage {
+    padding-top: 80px;
+    margin-bottom: 58px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 58px;
+}
+
+.advantages-item {
+    padding: 24px 32px;
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+}
+
+.card__image {
+    margin-bottom: 23px;
+}
+
+.advantages-card__title {
+    margin-bottom: 16px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.advantages-card__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: var(--textColor);
+}
+
+.btn__text_advantages {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--textColor);
+    display: block;
+    margin: 0 auto;
+}
+

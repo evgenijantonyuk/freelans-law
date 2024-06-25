@@ -1,0 +1,122 @@
+.useful__container {
+    margin-bottom: 80px;
+}
+
+.text__block_useful {
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle__useful {
+    display: inline-block;
+    left: 60px;
+    position: relative;
+    color: rgb(177, 177, 177);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.subtitle__useful:before {
+    content: " ";
+    background: rgb(177, 177, 177);
+    top: 50%;
+    width: 45px;
+    height: 1px;
+    position: absolute;
+    left: -65%;
+}
+
+.title__text_useful {
+    font-size: 40px;
+    color: var(--titleColorDarck);
+}
+
+.useful-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.useful-item {
+    width: 306px;
+}
+
+.useful-item__one {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url("./../images/useful-card-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    width: 306px;
+}
+
+.useful-item__one p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.useful-date {
+    opacity: 0.4;
+}
+
+.useful-item__one .btn__text {
+    display: inline-block;
+    font-family: "GillSansC", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.useful-item p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.useful__text {
+    max-width: 310px;
+    padding: 25px 0 38px 32px;
+}
+
+.useful__date {
+    margin-bottom: 16px;
+}
+
+.useful__title {
+    margin-bottom: 16px;
+}
+
+.useful-item__one,
+.useful-item {
+    text-align: left;
+}
+
+.btn__text_useful {
+    display: inline-block;
+    font-family: "GillSansC", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.81px;
+    color: var(--textColor);
+    align-self: center;
+}

@@ -1,0 +1,173 @@
+.clients__review {
+  background-color: var(--bgColor);
+  margin-bottom: 80px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.clients-review__text {
+  text-align: center;
+}
+
+.title__text_review {
+  font-size: 40px;
+  font-weight: 250;
+  line-height: 52px;
+  letter-spacing: 2px;
+  color: var(--titleColorDarck);
+}
+
+.slider {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 940px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  overflow: hidden;
+  /*height: 450px;*/
+}
+
+.card {
+  display: flex;
+  position: absolute;
+  top: 180px;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+
+.card.active {
+  opacity: 1;
+}
+
+.card__wrapper {
+  margin-top: 110px;
+  width: 854px;
+  text-align: center;
+  background-color: white;
+  padding: 100px 30px 30px;
+  z-index: 2;
+  position: relative;
+}
+
+.card::before {
+  content: url("./../images/review-border.png");
+  position: absolute;
+  top: 170px;
+  left: -21px;
+}
+
+.card__wrapper::before {
+  content: url("./../images/down-“.png");
+  position: absolute;
+  top: -15px;
+  right: 10px;
+}
+
+.card__wrapper::after {
+  content: url("./../images/up-“.png");
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+}
+
+.card__img {
+  border: 10px solid #f6f4f5;
+  border-radius: 50%;
+  max-width: 120px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__text {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 687px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #232228;
+  font-family: var(--mainTextFamily);
+
+
+}
+.card__title {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-family: "GillSansC", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #232228;
+}
+
+.review-title {
+  margin-bottom: 55px;
+}
+
+.quotes {
+  position: absolute;
+  width: 45px;
+  color: #d9d9d9;
+}
+
+.quotes__down {
+  right: 46px;
+}
+
+.quotes__up {
+  left: 46px;
+}
+
+.pagination__block {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 80px 0;
+}
+
+.pagination__circle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.pagination__circle:not(:last-child) {
+  margin-right: 10px;
+}
+
+.show {
+  width: 8px;
+  height: 8px;
+  background: #A4834E;
+  outline: 2px solid #A4834E !important;
+  outline-offset: 3px;
+}
+
+
+.arrow__left {
+  position: absolute;
+  left: 3%;
+  top: 55%;
+}
+
+.arrow__right {
+  position: absolute;
+  right: 3%;
+  top: 55%;
+}
+
+

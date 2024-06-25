@@ -1,0 +1,130 @@
+.specialists-container {
+    background-color: var(--bgColor);
+}
+
+.our-command {
+    display: flex;
+    padding: 80px 0 80px 0;
+}
+
+.text__block_command {
+    padding-top: 0;
+    padding-right: 37px;
+    width: 100%;
+    max-width: 492px;
+}
+
+.title__text_specialists {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: var(--titleColorDarck);
+}
+
+.text__specialists {
+    margin-bottom: 40px;
+    color: var(--textColor);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.specialists-slider {
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.specialists-list {
+    max-width: 1550px;
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.specialists-item {
+    min-width: 229px;
+}
+
+.specialists-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.button__controls {
+    width: 50px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #A4834E;
+}
+
+.button__controls:focus {
+    background-color: #c57f0c;
+}
+.button__controls:hover {
+    background-color: #c57f0c;
+}
+.button__controls:focus {
+    background-color: #c57f0c;
+}
+
+.subtitle__specialists {
+    display: inline-block;
+    left: 60px;
+    position: relative;
+    color: rgb(177, 177, 177);
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.subtitle__specialists:before {
+    content: " ";
+    background: rgb(177, 177, 177);
+    top: 50%;
+    width: 45px;
+    height: 1px;
+    position: absolute;
+    left: -45%;
+}
+
+.specialist-photo {
+    background-color: #A4834E;
+}
+
+.specialist-photo:nth-child(n) {
+    margin-bottom: 24px;
+}
+
+.specialist-name {
+    margin-bottom: 16px;
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--textColor);
+    text-transform: uppercase;
+
+}
+
+.specialist-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #B1B1B1;
+}
+
+.specialist-description:nth-child(2n) {
+    margin-bottom: 26px;
+}
+
+.btn__text_specialists {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 400;
+}

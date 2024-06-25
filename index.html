@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Law firm</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="header__container">
+	<div class="container">
+		<div class="header__section">
+			<a href="#" class="header-logo__link">
+				<img class="header-logo" src="./images/header-logo.png" alt="logo"></a>
+			<nav class="header__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="#">Главная</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Услуги</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Сопровождение</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Полезное</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">О компании</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="tel:+79998900998" class="header__tel">+7 (999) 890 09 98</a>
+		</div>
+	</div>
+	<div class="menu-btn">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</header>
+	
+	<!--	mobile menu   -->
+	<div class="header__section_mobile">
+		<a href="#" class="header-logo__link_mobile">
+			<img class="header-logo" src="./images/header-logo.png" alt="logo"></a>
+		<nav class="header__nav header__nav_mobile">
+			<ul class="nav__list nav__list_mobile">__
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">Главная</a>
+				</li>
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">Услуги</a>
+				</li>
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">Сопровождение</a>
+				</li>
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">Полезное</a>
+				</li>
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">О компании</a>
+				</li>
+				<li class="nav__item_mobile">
+					<a class="nav__link nav__link_mobile" href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<a href="tel:+79998900998" class="header__tel header__tel_mobile">+7 (999) 890 09 98</a>
+	</div>
+
+<main class="main">
+	<section class="hero__container">
+		<div class="container">
+			<div class="hero-content">
+				<h1 class="hero__title">
+					Решим любой правовой вопрос
+				</h1>
+				<p class="hero__text">Помощь в решении любого правового вопроса в вашу пользу</p>
+				
+				<p class="consultation__text">Нужна консультация&#63;</p>
+				<div class="subscribe subscribe__hero">
+					<input type="tel" name="phone" class="input-tel input-tel__hero" placeholder="+7 (___)___ __ __" required>
+					<button id="open__pop_up" class="open__popup btn__text btn__text_hero" type="submit">
+						Заказать звонок
+					</button>
+				</div>
+				<ul class="about-us__list">
+					<li class="about-us__item">
+						<span class="about-us__number">89%</span>
+						<span class="about-us__text">Выигранных дел</span>
+					</li>
+					<li class="about-us__item">
+						<span class="about-us__number">34</span>
+						<span class="about-us__text">Сотрудника в штате</span>
+					</li>
+					<li class="about-us__item">
+						<span class="about-us__number">18</span>
+						<span class="about-us__text">Лет на рынке</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- popup -->
+		<div class="popup">
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="border">
+						<h2 class="title__text title__text_popup">Оставте заявку <span
+								class="title__text_accent">мы с вами свяжемся</span></h2>
+						<form id="add-form" autocomplete="off" action="index.html" class="form">
+							<div class="input-box">
+								<input data-required="true" data-min-length="2" class="popup-input popup-input__text" id="name" type="text" placeholder="Ваше имя">
+							</div>
+							<div class="input-box">
+								<input data-required="true" class="popup-input popup-input__tel" id="tel" type="tel" placeholder="Ваш телефон">
+							</div>
+							<div class="input-box">
+								<input class="popup-input popup-input__email" id="email" type="email"
+								       placeholder="Ваш e-mail">
+							</div>
+							<button class="btn__text btn__text_popup" type="submit">Отправить</button>
+						</form>
+					</div>
+					<div class="popup__close">
+						<img src="./icons/close-popup.png" alt="кнопка закрытия всплывающего окна">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="director__container">
+		<img class="director-photo" src="./images/director-img.png" alt="фото директора">
+		<div class="text-block__director">
+			<p class="subtitle subtitle__director">Слово руководителя</p>
+			<h3 class="title__text title__text_director">Потому что нам <span
+					class="title__text_accent">не все равно</span></h3>
+			<p class="text director__text">Я обеспечу представление Ваших интересов в судах общей юрисдикции, арбитраже,
+				третейском суде, приму участие в переговорах, окажу помощь на стадии досудебного урегулирования
+				споров.</p>
+			<div class="director">
+				<h4 class="director__name">Жемчужин Василий Яковлевич</h4>
+				<p class="director__position">Генеральный директор</p>
+				<img class="director__sign" src="./images/sign.png" alt="роспись директора">
+			</div>
+		</div>
+	</section>
+	
+	<section class="advantages__container">
+		<div class="container">
+			<div class="background-img">
+				<div class="text__block_advantage">
+					<p class="subtitle subtitle__advantage">Наши преимущества</p>
+					<p class="title__text title__text_advantages">Почему <span
+							class="title__text_accent">выбирают</span> нас</p>
+				</div>
+				<ul class="advantages-list">
+					<li class=advantages-item>
+						<img src="icons/clock.svg" alt="рисунок часов" class="card__image">
+						<h3 class="advantages-card__title">круглосуточная поддержка</h3>
+						<p class="advantages-card__text">Звонки по любым вопросам в удобное для вас время. Мы всегда
+							рядом</p>
+					</li>
+					<li class="advantages-item">
+						<img src="icons/bag.svg" alt="рисунок портфеля" class="card__image">
+						<h3 class="advantages-card__title">Высокая экспертность</h3>
+						<p class="advantages-card__text">Наши специалисты постоянно улучшают свои навыки и изучают новые
+							подходы</p>
+					</li>
+					<li class="advantages-item">
+						<img src="icons/chess.svg" alt="" class="card__image">
+						<h3 class="advantages-card__title">думаем на два шага вперед</h3>
+						<p class="advantages-card__text">Звонки по любым вопросам в удобное для вас время. Мы всегда
+							рядом</p>
+					</li>
+					<li class="advantages-item">
+						<img src="icons/book.svg" alt="" class="card__image">
+						<h3 class="advantages-card__title">Знания &mdash; наша сила</h3>
+						<p class="advantages-card__text">Звонки по любым вопросам в удобное для вас время. Мы всегда
+							рядом</p>
+					</li>
+				</ul>
+				<button class="btn__text btn__text_advantages open__popup">
+					Заказать звонок
+				</button>
+			</div>
+		</div>
+	</section>
+	
+	<section class="specialists-container">
+		<div class="container">
+			<div class="our-command">
+				<div class="text__block_command">
+					<p class="subtitle subtitle__specialists">Наша команда</p>
+					<h3 class="title__text title__text_specialists">Наши специалисты знают <span
+							class="title__text_accent">свое дело</span></h3>
+					<p class="text text__specialists">Я обеспечу представление Ваших интересов в судах общей юрисдикции,
+						арбитраже, третейском суде, приму участие в переговорах.</p>
+					<button class="open__popup btn__text btn__text_specialists">Заказать звонок</button>
+				</div>
+				<div class="specialists-slider">
+					<ul class="specialists-list">
+						<li class="specialists-item">
+							<img class="specialist-photo" src="./images/kirill.png" alt="фото специалиста">
+							<h3 class="specialist-name">Кирилл Александрович</h3>
+							<p class="specialist-description">27 лет стажа</p>
+						</li>
+						<li class="specialists-item">
+							<h3 class="specialist-name">Любовь Юрьевна</h3>
+							<p class="specialist-description">18 лет стажа</p>
+							<img class="specialist-photo" src="./images/lubov.png" alt="фото специалиста">
+						</li>
+						<li class="specialists-item">
+							<img class="specialist-photo" src="./images/ivan.png" alt="фото специалиста">
+							<h3 class="specialist-name">Иван васильевич</h3>
+							<p class="specialist-description">17 лет стажа</p>
+						</li>
+						<li class="specialists-item">
+							<h3 class="specialist-name">АННА ДМИТРИЕВНА</h3>
+							<p class="specialist-description">12 лет стажа</p>
+							<img class="specialist-photo" src="./images/anna.png" alt="фото специалиста">
+						</li>
+					</ul>
+					<button class="button__controls button__controls_left"><img src="./icons/arrow-left.png"
+					                                                                   alt="стрелка влево"></button>
+					<button class="button__controls button__controls_right"><img src="./icons/arrow-right.png"
+					                                                                    alt="стрелка вправо"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="changed__container">
+		<div class="container">
+			<div class="text__block_changed">
+				<p class="subtitle subtitle__changed">Нам доверяют</p>
+				<h3 class="title__text title__text_changed">они <span
+						class="title__text_accent">выбрали</span> нас</h3>
+			</div>
+			<div class="they-changed">
+				<ul class="changed-list">
+					<li class="changed-item">
+						<img class="changed-image" src="./images/mini.svg" alt="логотип компании">
+						<p class="company__name">mini cooper</p>
+					</li>
+					<li class="changed-item">
+						<img class="changed-image" src="./images/sber.svg" alt="логотип компании">
+						<p class="company__name">сбер</p>
+					</li>
+					<li class="changed-item">
+						<img class="changed-image" src="./images/skolkovo.svg" alt="логотип компании">
+						<p class="company__name">сколково</p>
+					</li>
+					<li class="changed-item">
+						<img class="changed-image" src="./images/phychology.svg" alt="логотип компании">
+						<p class="company__name">phychology</p>
+					</li>
+					<li class="changed-item">
+						<img class="changed-image" src="./images/valorant.svg" alt="логотип компании">
+						<p class="company__name">Valorant</p>
+					</li>
+					<li class="changed-item">
+						<img class="changed-image" src="./images/first-chanel.svg" alt="логотип компании">
+						<p class="company__name">первый канал</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section class="clients__review">
+		<div class="container">
+			<div class="clients-review__text">
+				<p class="subtitle subtitle__changed">О нас говорят</p>
+				<h3 class="title__text title__text_review">
+					<span class="title__text_accent">отзывы </span>
+					наших клиентов</h3>
+			</div>
+			
+				<div class="slider">
+					<div class="body">
+						<div class="card">
+							<div class="card__wrapper">
+								<img class="card__img" src="./images/photo-review-card.png" alt="фото клиента"/>
+								<p class="card__text">
+									Я обеспечу представление Ваших интересов в судах общей юрисдикции, арбитраже, третейском
+									суде, приму участие в переговорах, окажу помощь на стадии досудебного урегулирования
+									споров.
+								</p>
+								<h4 class="card__title">Юлия Воробьева</h4>
+								<p class="card__subtitle">Директор компании "Воробьева и ко"</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="body">
+						<div class="card">
+							<div class="card__wrapper">
+								<img class="card__img" src="./images/red.png" alt="img"/>
+								<p class="card__text">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+									corrupti nemo officia modi reiciendis quibusdam fugiat nesciunt
+									libero, molestiae, ea sequi neque tenetur officiis eum totam vel
+									nobis, quisquam exercitationem?
+								</p>
+								<h4 class="card__title">Lorem ipsum.</h4>
+								<p class="card__subtitle">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="body">
+						<div class="card">
+							<div class="card__wrapper">
+								<img class="card__img" src="./images/yellow.webp" alt="img"/>
+								<p class="card__text">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+									corrupti nemo officia modi reiciendis quibusdam fugiat nesciunt
+									libero, molestiae, ea sequi neque tenetur officiis eum totam vel
+									nobis, quisquam exercitationem?
+								</p>
+								<h4 class="card__title">Lorem ipsum.</h4>
+								<p class="card__subtitle">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="body">
+						<div class="card">
+							<div class="card__wrapper">
+								<img class="card__img" src="./images/blue.jpeg" alt="img"/>
+								<p class="card__text">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+									corrupti nemo officia modi reiciendis quibusdam fugiat nesciunt
+									libero, molestiae, ea sequi neque tenetur officiis eum totam vel
+									nobis, quisquam exercitationem?
+								</p>
+								<h4 class="card__title">Lorem ipsum.</h4>
+								<p class="card__subtitle">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+					<img class="arrow controls arrow__right" src="icons/arrow-right.png" alt="стрелка вправо">
+					<img class="arrow controls arrow__left" src="icons/arrow-left.png" alt="стрелка влево">
+				</div>
+			<div id="button" class="pagination__block"></div>
+		</div>
+	</section>
+	
+	<section class="useful__container">
+		<div class="container">
+			<p class="subtitle subtitle__useful">Наш блог</p>
+			<div class="text__block_useful">
+				<h3 class="title__text title__text_useful"><span class="title__text_accent">полезно </span>знать</h3>
+				<a href="#" class="btn__text btn__text_useful">читать больше</a>
+			</div>
+			
+			<div>
+				<ul class="useful-list">
+					<li class="useful-item__one">
+						<div class="useful__text">
+							<p class="useful__date">15 апреля</p>
+							<p class="useful__title">Как использовать закон в свою пользу?</p>
+							<a href="" class="btn__text btn__text_useful">читать</a>
+						</div>
+					</li>
+					<li class="useful-item">
+						<img class="useful-image" src="./images/useful-card-2.png" alt="">
+						<div class="useful__text">
+							<p class="useful__date">09 апреля</p>
+							<p class="useful__title">библиотека юристов. Что почитать?</p>
+							<a href="" class="btn__text btn__text_useful">читать</a>
+						</div>
+					</li>
+					<li class="useful-item">
+						<img class="useful-image" src="./images/useful-card-3.png" alt="">
+					<div class="useful__text">
+						<p class="useful__date">06 марта</p>
+						<p class="useful__title">на что обратить внимание в документах?</p>
+						<a href="" class="btn__text btn__text_useful">читать</a>
+					</div>
+					</li>
+					<li class="useful-item">
+						<img class="useful-image" src="./images/useful-card-4.png" alt="">
+						<div class="useful__text">
+							<p class="useful__date">23 февраля</p>
+							<p class="useful__title">залог успешных дел наших юристов</p>
+							<a href="" class="btn__text btn__text_useful">читать</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section class="our-news__container">
+		<div class="container">
+			<div class="our-news__block">
+				<p class="subtitle subtitle__our-news">Будьте в курсе</p>
+				<h3 class="title__text title__text_our-news"><span class="title__text_accent">подпишитесь </span>на наши новости</h3>
+				<p class="our-news__text">Чтобы всегда быть в курсе дел и обновлении законов. </p>
+				
+				<div class="subscribe subscribe__news">
+					<input type="email" class="input-tel__news" placeholder="Ваш email" required>
+					<button type="submit" class="open__popup btn__text btn__text_news">Подписаться</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="address-info">
+			<div class="map" id="map"></div>
+			<div class="contacts-info">
+				<p class="subtitle subtitle__contacts">На связи с нами</p>
+					<h3 class="title__text title__text_contacts"><span
+							class="title__text_accent">Контактная </span>информация</h3>
+				<address class="address">
+					<div class="contacts__block">
+						<div class="contacts">
+							<p class="contacts__text contacts__text_tel">телефон</p>
+							<a class="contacts__connect contacts__connect_tel" href="tel:+799989009983">+7 (999) 890 09 98</a>
+							<p class="contacts__text contacts__text_email">почта</p>
+							<a class="contacts__connect contacts__connect_email" href="mailto:info@ya.ru">info@ya.ru</a>
+						</div>
+						<div class="contacts__address">
+							<p class="contacts__text contacts__text_address">адрес</p>
+							<a class="contacts__connect contacts__connect_address" href="https://yandex.ru/maps/?text=Москва, Москва, ул. Арбат, д. 1">Москва, ул. Арбат, д. 1</a>
+						</div>
+					</div>
+					<p class="consultation__text">Нужна консультация&#63;</p>
+					<div class="subscribe subscribe__address">
+						<input type="tel" name="phone" class="input-tel input-tel__address" placeholder="+7 (___)___ __ __" required>
+						<button class="open__popup btn__text btn__text_contacts" type="submit">Заказать звонок</button>
+					</div>
+				</address>
+			</div>
+		</div>
+	</section>
+</main>
+<div class="footer__container">
+	<p class="footer__text">
+		&#169; Все права защищены 2023
+	</p>
+</div>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=172315a0-227c-4f09-9894-552cac34859e&lang=ru_RU"
+        type="text/javascript">
+</script>
+<script src="./js/script.js"></script>
+<script src="./js/inputmask.min.js"></script>
+<script src="./js/validate.js"></script>
+</body>
+</html>

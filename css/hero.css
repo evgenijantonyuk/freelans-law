@@ -1,0 +1,112 @@
+
+.hero__container {
+    width: 100%;
+    background-image: url("./../images/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px;
+    max-width: 600px;
+}
+
+.about-us__list {
+    display: flex;
+    justify-content: space-between;
+    width: 115%;
+}
+
+.about-us__item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38px;
+}
+
+.hero__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'GillSansC', sans-serif;
+    color: var(--titleColorLignt);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0.025em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hero__text {
+    margin-bottom: 62px;
+    color: rgb(177, 177, 177);
+    font-family: var(--mainTextFamily);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+.consultation__text {
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1px;
+    text-transform: uppercase;
+    font-family: 'GillSansC', sans-serif;
+}
+
+.subscribe__hero {
+    margin-bottom: 74px;
+}
+
+.input-tel__hero {
+    margin-right: 8px;
+    background-color: #fff;
+    padding-left: 25px;
+    width: 298px;
+    height: 52px;
+}
+
+.input-tel::placeholder {
+    color: #B1B1B1;
+
+}
+
+.btn__text_hero {
+    color: #ffffff;
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    /*pointer-events: none;*/
+}
+
+.about-us__block {
+    padding: 32px 38px;
+    max-width: 302px;
+    justify-content: space-between;
+}
+
+.about-us__number {
+    margin-bottom: 16px;
+    color: rgb(227, 195, 122);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 2.5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.about-us__text {
+    color: rgb(177, 177, 177);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}

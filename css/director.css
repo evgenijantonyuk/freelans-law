@@ -1,0 +1,100 @@
+.director__container {
+    background-color: var(--bgColor);
+    display: flex;
+}
+
+.title__text_director {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 48px;
+    color: var(--titleColorDarck);
+}
+
+.director-photo {
+    margin-right: 102px;
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle__director {
+    display: inline-block;
+    left: 60px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.text-block__director {
+    padding-top: 80px;
+    margin-bottom: 58px;
+    max-width: 523px;
+    position: relative;
+}
+
+.text-block__director:before {
+    content: url("./../images/down-“.png");
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+
+.text-block__director:after {
+    content: url("./../images/up-“.png");
+    position: absolute;
+    top: 360px;
+    left: -72px;
+}
+
+.subtitle__director:before {
+    content: " ";
+    background: rgb(177, 177, 177);
+    top: 50%;
+    width: 45px;
+    height: 1px;
+    position: absolute;
+    left: -35%;
+}
+
+.director__sign {
+    position: absolute;
+    left: 500px;
+    top: -115px;
+}
+
+.director__text {
+    margin-bottom: 103px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.director {
+    position: relative;
+}
+
+.director__name {
+    font-family: 'GillSansC', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--textColor);
+;
+}
+
+.director__position {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #B1B1B1;
+}

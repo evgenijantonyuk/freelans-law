@@ -1,0 +1,135 @@
+
+.header__container {
+    width: 100%;
+    background-image: url("./../images/header-hero-fon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgba(177, 177, 177, 0.16);
+    justify-content: space-around;
+}
+
+.header__section {
+    display: flex;
+    min-height: 73px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+. .header__section_mobile {
+    display: none;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__link {
+    color: rgb(177, 177, 177);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.nav__link:focus {
+    color: #E3C37A;
+    border-bottom: 1px solid #E3C37A;
+}
+.nav__link:hover {
+    color: #E3C37A;
+    border-bottom: 1px solid #E3C37A;
+}
+.nav__link:active {
+    color: #E3C37A;
+    border-bottom: 1px solid #E3C37A;
+}
+
+.header__tel {
+    color: #E3C37A;
+    font-family: 'GillSansC', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* mobile */
+.menu-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding: 5%;
+    z-index: 5;
+}
+
+.menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 10px);
+}
+
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 10px);
+}
+
+.menu-btn.active {
+    padding-right: 15%;
+}
+
+.menu-btn.active span:first-of-type {
+    opacity: 0;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.header__section_mobile {
+    width: 100%;
+    background-image: url("./../images/header-hero-fon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.header__section_mobile.active {
+    display: block;
+    height: 100vh;
+}
+
+.header-logo__link_mobile {
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.header__nav_mobile {
+    justify-content: center;
+}
+
+.nav__list_mobile {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.nav__item_mobile {
+    margin-bottom: 10px;
+}

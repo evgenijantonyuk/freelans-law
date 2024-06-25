@@ -1,0 +1,258 @@
+
+
+@media (max-width: 1235px){
+    .header__section {
+        padding: 0 25px;
+    }
+    .hero-content {
+        padding: 50px 30px;
+    }
+    .hero-content {
+        margin: 0 auto;
+    }
+    .director__container {
+        flex-direction: column;
+    }
+    .text-block__director {
+        margin: 0 auto;
+    }
+    .advantages-list {
+        flex-direction: column;
+    }
+    .card::before {
+        content: url(./../images/review-border.png);
+        position: absolute;
+        top: 170px;
+        left: -53px;
+    }
+    .card {
+        width: 800px;
+    }
+    .arrow__right {
+        position: absolute;
+        top: 90%;
+        right: 35%;
+    }
+    .arrow__left {
+        position: absolute;
+        left: 35%;
+        top: 90%
+    }
+}
+
+@media (max-width: 986px) {
+    .our-command {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        padding: 0 15px;
+    }
+    .header__section {
+        display: none;
+    }
+    .header__container {
+        border-bottom: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .header__section_mobile {
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+        background-color: gray;
+    }
+    .header-logo {
+        padding-top: 15px;
+    }
+    .nav-item__mobile {
+        margin-bottom: 15px;
+    }
+    .nav__link {
+        padding: 0;
+        font-size: 18px;
+    }
+    .nav-link__mobile {
+        color: rgb(177, 177, 177);
+    }
+    .header-tel__mobile {
+        color: #A4834E;
+        margin: 0 auto;
+    }
+    .hero-content {
+        /*margin: 0 auto;*/
+        text-align: center;
+    }
+    .hero__title {
+        font-size: 46px;
+    }
+    .card::before {
+        opacity: 0;
+    }
+    .card {
+        width: 500px;
+    }
+    .clients__review {
+        padding-bottom: 150px;
+    }
+    .pagination__block {
+        display: none;
+    }
+    .subscribe__hero {
+        flex-direction: column;
+    }
+    .input-tel__hero {
+        margin-bottom: 13px;
+    }
+    .btn__text_hero {
+        display: inline-block;
+    }
+    .useful-item {
+        width: 100%;
+    }
+    .useful-item__one {
+        width: 100%;
+    }
+    .useful-image {
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    .subscribe__news {
+        flex-direction: column;
+    }
+    .input-tel__news {
+        margin-bottom: 13px;
+    }
+    .address-info {
+        flex-direction: column;
+    }
+    #map {
+        width: 100%;
+    }
+    .contacts-info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-us__list {
+       display: block;
+        margin: 0 auto;
+    }
+    .subscribe {
+        flex-direction: column;
+    }
+    .specialists-list {
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+    }
+    .specialist-photo {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .specialists-item:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .button__controls {
+        opacity: 0;
+    }
+    .title__text_contacts {
+        text-align: center;
+    }
+    .text-block__director:before {
+        content: url("./../images/down-“.png");
+        position: absolute;
+        top: 160px;
+        left: 517px;
+    }
+    .text-block__director:after {
+        content: url("./../images/up-“.png");
+        position: absolute;
+        top: 403px;
+        left: 0;
+    }
+    .director__sign {
+        position: absolute;
+        left: 335px;
+        top: -132px;
+    }
+    .contacts-info {
+        padding-bottom: 25px;
+    }
+    .contacts {
+        flex-direction: column;
+    }
+    .contacts__block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .contacts {
+        gap: 10px;
+    }
+    .contacts__address {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .consultation__text {
+        text-align: center;
+    }
+    .input-tel__address {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title__text {
+        font-size: 34px;
+    }
+    .input-tel__hero {
+        width: 190px;
+    }
+    .btn__text {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+    .text-block__director:before {
+        content: url("./../images/down-“.png");
+        position: absolute;
+        top: 160px;
+        left: 380px;
+    }
+    .text-block__director:after {
+        content: url("./../images/up-“.png");
+        position: absolute;
+        top: 403px;
+        left: 0;
+    }
+    .director__sign {
+        position: absolute;
+        left: 277px;
+        top: -132px;
+        width: 170px;
+    }
+    .button__controls {
+        display: none;
+    }
+    .card__text {
+        width: 320px;
+    }
+    .changed-item {
+        width: 100%;
+    }
+    .card__wrapper {
+        margin-top: 135px;
+    }
+}
+
