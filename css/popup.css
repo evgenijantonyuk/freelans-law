@@ -12,6 +12,10 @@
     transition: .4s ease;
 }
 
+.title__text_popup {
+    font-size: 52px;
+}
+
 .popup.active {
     transform: translateY(0%) scale(1);
     background-color: rgba(0, 0, 0, 0.9);

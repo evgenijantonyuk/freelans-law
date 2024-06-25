@@ -45,6 +45,9 @@
         flex-direction: column;
         padding: 0 15px;
     }
+    .popup__body {
+        max-width: 763px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -86,7 +89,6 @@
         margin: 0 auto;
     }
     .hero-content {
-        /*margin: 0 auto;*/
         text-align: center;
     }
     .hero__title {
@@ -142,6 +144,13 @@
 }
 
 @media (max-width: 750px) {
+
+    .popup__body {
+        max-width: 500px;
+    }
+    .popup-input {
+        max-width: 400px;
+    }
     .about-us__list {
        display: block;
         margin: 0 auto;
@@ -214,6 +223,12 @@
 }
 
 @media (max-width: 500px) {
+    .popup__body {
+        max-width: 320px;
+    }
+    .popup-input {
+        max-width: 290px;
+    }
     .title__text {
         font-size: 34px;
     }
