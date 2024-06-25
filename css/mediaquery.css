@@ -144,7 +144,6 @@
 }
 
 @media (max-width: 750px) {
-
     .popup__body {
         max-width: 500px;
     }

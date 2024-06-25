@@ -59,13 +59,13 @@
 }
 
 .button__controls:focus {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 .button__controls:hover {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 .button__controls:focus {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 
 .subtitle__specialists {

@@ -37,15 +37,15 @@
 
 .nav__link:focus {
     color: #E3C37A;
-    border-bottom: 1px solid #E3C37A;
+    border-bottom: 1px solid var(--activeLinkColor);
 }
 .nav__link:hover {
     color: #E3C37A;
-    border-bottom: 1px solid #E3C37A;
+    border-bottom: 1px solid var(--activeLinkColor);
 }
 .nav__link:active {
     color: #E3C37A;
-    border-bottom: 1px solid #E3C37A;
+    border-bottom: 1px solid var(--activeLinkColor);
 }
 
 .header__tel {

@@ -19,6 +19,10 @@
     --titleColorLignt: #fff;
     --titleColorDarck: #232228;
     --textColor: #232228;
+    --activeLinkColor: #E3C37A;
+    --activeColorBorder: 1px solid #966a03;
+    --activeColorBtnText:  #966a03;
+    --activeArrowColor: #c57f0c;
     --btnBorder: 1px solid #E3C37A;
     --mainTextFamily: "Montserrat", sans-serif;
 ;
@@ -76,6 +80,16 @@ body {
     background-color: #ffffff;
 }
 
+input:focus {
+    background-color: #e8e6e6;
+}
+input:hover {
+    background-color: #e8e6e6;
+}
+input:active {
+    background-color: #e8e6e6;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1296px;
@@ -124,6 +138,18 @@ body {
     font-family: 'GillSansC', sans-serif;
     border: var(--btnBorder);
 }
+.btn__text:focus {
+    border: var(--activeColorBorder);
+    color: var(--activeColorBtnText);
+}
+.btn__text:hover {
+    border: var(--activeColorBorder);
+    color: var(--activeColorBtnText);
+}
+.btn__text:active {
+    border: var(--activeColorBorder);
+    color: var(--activeColorBtnText);
+}
 
 .arrow {
     width: 48px;
@@ -133,15 +159,15 @@ body {
 }
 
 .arrow:focus {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 
 .arrow:hover {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 
 .arrow:active {
-    background-color: #c57f0c;
+    background-color: var(--activeArrowColor);
 }
 
 

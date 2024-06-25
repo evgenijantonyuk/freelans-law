@@ -12,10 +12,6 @@
     transition: .4s ease;
 }
 
-.title__text_popup {
-    font-size: 52px;
-}
-
 .popup.active {
     transform: translateY(0%) scale(1);
     background-color: rgba(0, 0, 0, 0.9);
@@ -48,6 +44,7 @@
     font-family: 'GillSansC', sans-serif;
     padding-top: 56px;
     margin-bottom: 40px;
+    font-size: 52px;
 }
 
 .popup-input {
@@ -76,8 +73,8 @@
 
 .btn__text_popup:focus {}
 .btn__text_popup:hover {
-    background-color: #A4834E;
-    color: #D9D9D9;
+    background-color: var(--activeLinkColor);
+    color: #494646;
 }
 .btn__text_popup:active {}
 

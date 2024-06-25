@@ -89,15 +89,12 @@
 
 .btn__text_contacts {
     margin-right: 8px;
-    background-color: #fff;
+    color: #fff;
+    background-color: transparent;
     padding-left: 25px;
     width: 298px;
     height: 52px;
 }
-
-/*.contacts__text_tel {*/
-/*    margin-right: 14px;*/
-/*}*/
 
 .contacts__connect {
     font-family: 'GillSansC', sans-serif;
