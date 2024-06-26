@@ -180,7 +180,7 @@
         content: url("./../images/down-“.png");
         position: absolute;
         top: 160px;
-        left: 517px;
+        left: 500px;
     }
     .text-block__director:after {
         content: url("./../images/up-“.png");
@@ -226,7 +226,7 @@
         max-width: 320px;
     }
     .popup-input {
-        max-width: 290px;
+        max-width: 260px;
     }
     .title__text {
         font-size: 34px;
@@ -242,7 +242,7 @@
         content: url("./../images/down-“.png");
         position: absolute;
         top: 160px;
-        left: 380px;
+        left: 370px;
     }
     .text-block__director:after {
         content: url("./../images/up-“.png");
