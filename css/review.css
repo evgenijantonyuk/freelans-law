@@ -1,3 +1,5 @@
+
+
 .clients__review {
   background-color: var(--bgColor);
   margin-bottom: 80px;
@@ -27,20 +29,29 @@
 }
 
 .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 35px;
   overflow: hidden;
-  /*height: 450px;*/
 }
 
 .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 180px;
   margin: 0 auto;
   opacity: 0;
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
   transition: opacity .5s ease;
 }
 
@@ -86,27 +97,28 @@
   position: absolute;
   top: 0;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .card__text {
   margin: 0 auto;
   margin-bottom: 40px;
+  font-style: italic;
   max-width: 687px;
   font-size: 16px;
-  font-style: italic;
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #232228;
+  color: var(--titleColorDarck);
   font-family: var(--mainTextFamily);
-
-
 }
+
 .card__title {
   margin-bottom: 16px;
   text-transform: uppercase;
-  font-family: "GillSansC", sans-serif;
+  font-family: var(--titleTextFamily);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -132,7 +144,11 @@
 }
 
 .pagination__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 40px 0 80px 0;
 }
@@ -169,5 +185,4 @@
   right: 3%;
   top: 55%;
 }
-
 

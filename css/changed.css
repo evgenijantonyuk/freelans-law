@@ -1,5 +1,7 @@
+
+
 .changed__container {
-    background-color: #232228;
+    background-color: var(--textColor);
     padding-bottom: 80px;
 }
 
@@ -14,7 +16,7 @@
 }
 
 .title__text_changed {
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     color: #ffffff;
     font-size: 40px;
     font-weight: 250;
@@ -24,21 +26,36 @@
 }
 
 .changed-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 16px;
 }
 
 .changed-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-     width: 200px;
-     height: 200px;
+    width: 200px;
+    height: 200px;
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     border: 1px solid rgba(217, 217, 217, 13%);
+    -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 24px 24px;
 }
@@ -49,21 +66,11 @@
 }
 
 .company__name {
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #ffffff;
-    opacity: 0.49;
-}
-
-.company__nane {
-    text-transform: uppercase;
-    color: #ffffff;
-    font-family: 'GillSansC', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.14px;
     opacity: 0.49;
 }

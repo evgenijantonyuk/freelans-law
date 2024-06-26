@@ -420,15 +420,21 @@
 			<div class="map" id="map" aria-label="карта с изображением адреса"></div>
 			<div class="contacts-info">
 				<p class="subtitle subtitle__contacts">На связи с нами</p>
-					<h3 class="title__text title__text_contacts"><span
-							class="title__text_accent">Контактная </span>информация</h3>
+					<h3 class="title__text title__text_contacts">
+						<span class="title__text_accent">Контактная</span>
+						информация
+					</h3>
 				<address class="address">
 					<div class="contacts__block">
 						<div class="contacts">
-							<p class="contacts__text contacts__text_tel">телефон</p>
-							<a class="contacts__connect contacts__connect_tel" href="tel:+799989009983">+7 (999) 890 09 98</a>
-							<p class="contacts__text contacts__text_email">почта</p>
-							<a class="contacts__connect contacts__connect_email" href="mailto:info@ya.ru">info@ya.ru</a>
+							<div class="contacts__tel">
+								<p class="contacts__text contacts__text_tel">телефон</p>
+								<a class="contacts__connect contacts__connect_tel" href="tel:+799989009983">+7 (999) 890 09 98</a>
+							</div>
+							<div class="contacts__email">
+								<p class="contacts__text contacts__text_email">почта</p>
+								<a class="contacts__connect contacts__connect_email" href="mailto:info@ya.ru">info@ya.ru</a>
+							</div>
 						</div>
 						<div class="contacts__address">
 							<p class="contacts__text contacts__text_address">адрес</p>
@@ -436,10 +442,12 @@
 						</div>
 					</div>
 					<p class="consultation__text">Нужна консультация&#63;</p>
-					<div class="subscribe subscribe__address">
-						<input type="tel" name="phone" class="input-tel input-tel__address" placeholder="+7 (___)___ __ __" required>
-						<button class="open__popup btn__text btn__text_contacts" type="submit">Заказать звонок</button>
-					</div>
+					<form action="" class="address--form">
+						<div class="subscribe subscribe__address">
+							<input type="tel" name="phone" class="input-tel input-tel__address" placeholder="+7 (___)___ __ __" required>
+							<button class="open__popup btn__text btn__text_contacts" type="submit">Заказать звонок</button>
+						</div>
+					</form>
 				</address>
 			</div>
 		</div>

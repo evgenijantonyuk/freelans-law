@@ -1,14 +1,18 @@
 
 .address-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 #map {
     width: 682px;
     height: 488px;
+filter: brightness(56%);
 }
 
 [class*="ymaps-2"][class*="-ground-pane"] {
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
@@ -16,8 +20,7 @@
     display: inline-block;
     left: 60px;
     position: relative;
-    color: rgb(177, 177, 177);
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 16px;
     font-weight: 250;
     line-height: 150%;
@@ -26,7 +29,7 @@
 
 .subtitle__contacts:before {
     content: " ";
-    background: rgb(177, 177, 177);
+    background:#b1b1b1;
     top: 50%;
     width: 45px;
     height: 1px;
@@ -64,11 +67,15 @@
 }
 
 .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 32px;
 }
 
 .contacts__address {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 40px;
 }
@@ -78,10 +85,10 @@
 }
 
 .contacts__text {
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 400;
-    line-height: 17.81px;
+    line-height: 18px;
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
@@ -97,28 +104,31 @@
 }
 
 .contacts__connect {
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 400;
-    line-height: 17.81px;
+    line-height: 18px;
     text-align: left;
     text-transform: uppercase;
+    color: #E3C37A;
+}
+.contacts__tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 82px;
+}
+.contacts__text_tel {
+    margin-right: 14px;
 }
 
-.contacts__connect_tel {
-    margin-right: 82px;
+.contacts__email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .contacts__text_email {
     margin-right: 33px;
-}
-
-.contacts__connect {
-    font-family: 'GillSansC', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 17.81px;
-    text-align: left;
-    color: #E3C37A;
 }
 

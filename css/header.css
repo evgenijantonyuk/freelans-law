@@ -6,13 +6,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid rgba(177, 177, 177, 0.16);
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
 .header__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 73px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -21,13 +28,15 @@
 }
 
 .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 30px;
 }
 
 .nav__link {
     color: rgb(177, 177, 177);
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 14px;
     font-weight: 300;
     line-height: 150%;
@@ -50,7 +59,7 @@
 
 .header__tel {
     color: #E3C37A;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 400;
 }
@@ -69,8 +78,12 @@
     height: 2px;
     position: absolute;
     overflow: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -92,11 +105,15 @@
 
 .menu-btn.active span:nth-of-type(2) {
     top: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .menu-btn.active span:nth-of-type(3) {
     top: 50%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 
@@ -107,6 +124,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: none;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -117,11 +136,17 @@
 
 .header-logo__link_mobile {
     margin-bottom: 15px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .header__nav_mobile {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 

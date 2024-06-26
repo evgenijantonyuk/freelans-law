@@ -1,12 +1,23 @@
+
+
 .director__container {
     background-color: var(--bgColor);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .title__text_director {
     font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     margin-bottom: 48px;
     color: var(--titleColorDarck);
@@ -22,7 +33,7 @@
     display: inline-block;
     left: 60px;
     position: relative;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 16px;
     font-weight: 250;
     line-height: 150%;
@@ -72,6 +83,7 @@
     font-weight: 300;
     line-height: 24px;
     letter-spacing: 0.02em;
+    font-style: italic;
 }
 
 .director {
@@ -79,7 +91,7 @@
 }
 
 .director__name {
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     text-transform: uppercase;
     margin-bottom: 16px;
     font-size: 16px;
@@ -90,7 +102,7 @@
 }
 
 .director__position {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;

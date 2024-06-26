@@ -7,20 +7,34 @@
 }
 
 .hero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 77px;
     max-width: 600px;
 }
 
 .about-us__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 115%;
 }
 
 .about-us__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 38px;
 }
@@ -28,7 +42,7 @@
 .hero__title {
     margin: 0;
     margin-bottom: 32px;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     color: var(--titleColorLignt);
     font-size: 56px;
     font-weight: 400;
@@ -56,7 +70,7 @@
     font-weight: 400;
     line-height: 1px;
     text-transform: uppercase;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
 }
 
 .subscribe__hero {
@@ -71,6 +85,26 @@
     height: 52px;
 }
 
+.input-tel::-webkit-input-placeholder {
+    color: #B1B1B1;
+
+}
+
+.input-tel::-moz-placeholder {
+    color: #B1B1B1;
+
+}
+
+.input-tel:-ms-input-placeholder {
+    color: #B1B1B1;
+
+}
+
+.input-tel::-ms-input-placeholder {
+    color: #B1B1B1;
+
+}
+
 .input-tel::placeholder {
     color: #B1B1B1;
 
@@ -78,7 +112,7 @@
 
 .btn__text_hero {
     color: #ffffff;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 400;
 }
@@ -86,6 +120,8 @@
 .about-us__block {
     padding: 32px 38px;
     max-width: 302px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 

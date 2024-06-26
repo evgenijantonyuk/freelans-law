@@ -1,8 +1,11 @@
+
 .specialists-container {
     background-color: var(--bgColor);
 }
 
 .our-command {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 80px 0 80px 0;
 }
@@ -23,7 +26,7 @@
 .text__specialists {
     margin-bottom: 40px;
     color: var(--textColor);
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -37,9 +40,13 @@
 .specialists-list {
     max-width: 1550px;
     margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     left: 0;
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
     transition: all ease 1s;
 }
 
@@ -73,7 +80,7 @@
     left: 60px;
     position: relative;
     color: rgb(177, 177, 177);
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 250;
     line-height: 150%;
@@ -82,7 +89,7 @@
 
 .subtitle__specialists:before {
     content: " ";
-    background: rgb(177, 177, 177);
+    background: #B1B1B1;
     top: 50%;
     width: 45px;
     height: 1px;
@@ -100,7 +107,7 @@
 
 .specialist-name {
     margin-bottom: 16px;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -111,7 +118,7 @@
 }
 
 .specialist-description {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mainTextFamily);
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
@@ -124,6 +131,8 @@
 }
 
 .btn__text_specialists {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     font-size: 16px;
     font-weight: 400;

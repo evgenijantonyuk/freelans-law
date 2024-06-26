@@ -25,6 +25,7 @@
     --activeArrowColor: #c57f0c;
     --btnBorder: 1px solid #E3C37A;
     --mainTextFamily: "Montserrat", sans-serif;
+    --titleTextFamily: 'GillSansC', sans-serif;
 ;
 }
 
@@ -49,9 +50,9 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: local('Montserrat-Regular'), local('Montserrat-Regular'),
-    url('./../fonts/Montserrat-Regular.woff2') format('woff2'),
-    url('./../fonts/Montserrat-Regular.woff') format('woff');
+    src: local('Montserrat-Italic'), local('Montserrat-Italic'),
+    url('./../fonts/Montserrat-Italic.woff2') format('woff2'),
+    url('./../fonts/Montserrat-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -98,7 +99,6 @@ input:active {
 
 .subtitle {
     margin-bottom: 32px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -136,7 +136,7 @@ input:active {
     appearance: none;
     padding: 16px 24px;
     text-transform: uppercase;
-    font-family: 'GillSansC', sans-serif;
+    font-family: var(--titleTextFamily);
     border: var(--btnBorder);
 }
 .btn__text:focus {
@@ -155,7 +155,7 @@ input:active {
 .arrow {
     width: 48px;
     height: 48px;
-    background-color: #A4834E;
+    background-color: var(--accentColor);
     background-size: cover;
 }
 
